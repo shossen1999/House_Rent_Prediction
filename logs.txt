@@ -1,0 +1,54 @@
+E:\soheb>"C:/Program Files/Python312/python.exe" e:/soheb/eda.py
+
+===== FIRST 10 ROWS =====
+                        Location  Bed  Bath      To-let From   Rent                                              Title   Area
+0                  Vatara, Dhaka  3.0     4  September Rent   38000                     Family Flat Rent Vatara, Dhaka  Dhaka
+1       Rayer Bazar, Mohammadpur  NaN     2    October Rent    6500  Sublet Room Rent Rayer Bazar, Mohammadpur Room...  Dhaka
+2            Nikunja 2, Khilkhet  1.0     1    October Rent    7000             Bachelor Room Rent Nikunja 2, Khilkhet  Dhaka
+3                   Savar, Dhaka  3.0     3    October Rent   10000                      Family Flat Rent Savar, Dhaka  Dhaka
+4  Agargaon, Sher-E-Bangla Nagar  3.0     3    October Rent   26000     Family Flat Rent Agargaon, Sher-E-Bangla Nagar  Dhaka
+5          Malibag, Shahjahanpur  1.0     1    October Rent    3000           Bachelor Seat Rent Malibag, Shahjahanpur  Dhaka
+6               Mirpur 1, Mirpur  1.0     1    October Rent    3500                Bachelor Seat Rent Mirpur 1, Mirpur  Dhaka
+7             Mohammadpur, Dhaka  1.0     1    October Rent    4000              Bachelor Seat Rent Mohammadpur, Dhaka  Dhaka
+8          Shyamoli, Mohammadpur  1.0     1    October Rent    2600           Bachelor Seat Rent Shyamoli, Mohammadpur  Dhaka
+9          Shyamoli, Mohammadpur  1.0     1  September Rent    4000           Bachelor Seat Rent Shyamoli, Mohammadpur  Dhaka
+
+===== BASIC INFO =====
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 6720 entries, 0 to 6719
+Data columns (total 7 columns):
+ #   Column       Non-Null Count  Dtype
+---  ------       --------------  -----
+ 0   Location     6720 non-null   object
+ 1   Bed          6026 non-null   float64
+ 2   Bath         6720 non-null   int64
+ 3   To-let From  6720 non-null   object
+ 4   Rent         6720 non-null   int64
+ 5   Title        6720 non-null   object
+ 6   Area         6720 non-null   object
+dtypes: float64(1), int64(2), object(4)
+memory usage: 367.6+ KB
+None
+
+===== NULL VALUE COUNT =====
+Location         0
+Bed            694
+Bath             0
+To-let From      0
+Rent             0
+Title            0
+Area             0
+dtype: int64
+
+===== RENT STATS =====
+count      6720.000000
+mean       7122.746131
+std       10472.962898
+min          55.000000
+25%        3437.500000
+50%        5800.000000
+75%        8000.000000
+max      440000.000000
+Name: Rent, dtype: float64
+
+EDA Completed. Charts saved locally.
