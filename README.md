@@ -40,5 +40,5 @@ This project is a **Machine Learning–based House Rent Prediction System** that
 
 ---
 
-## 📁 Project Structure
+
 
